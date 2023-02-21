@@ -1,4 +1,4 @@
-# Hux blog 模板
+# JainWong blog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
 
@@ -21,13 +21,13 @@
 
 ## 关于模板(beta)
 
-我的博客仓库——`huxpro.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`huxblog-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
+我的博客仓库——`JainWong.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`JainWong-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
 
 ```
-$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+$ git clone git@github.com:JainWong/JainWong-boilerplate.git
 ```
 
-**[在这里预览模板 &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+**[在这里预览模板 &rarr;](https://jainwong.github.io/JainWong-boilerplate/)**
 
 ## 各版本特性
 
@@ -35,7 +35,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 * 当你fork了我的仓库之后，还要删掉里面的关于我的文档是不是感到略烦躁呢？**Boilerplate** 模板将帮助你快速开始，方便合并与更新。
 * `-apple-system`被添加到了字体规则里面了，这套字体格式能将iOS9默认的新字体**San Francisco**表现的非常漂亮。
-* 解决了代码过长自动换行的bug,替换为横向滚动条。详情请见[issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15)
+* 解决了代码过长自动换行的bug,替换为横向滚动条。详情请见[issue#15](https://github.com/JainWong/JainWong.github.io/issues/15)
 
 ###### 其他历史版本个人觉得没有必要了解，看看英文就行了。
 
@@ -44,7 +44,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ## 支持
 
 * 你可以自由的fork。如果你能将主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
-* 如果你喜欢我的这个博客模板，请在`huxpro.github.io`这个repository点个赞——右上角**star**一下。
+* 如果你喜欢我的这个博客模板，请在`JainWong.github.io`这个repository点个赞——右上角**star**一下。
 
 ## 说明文档
 
@@ -79,13 +79,13 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: JainWong Blog             # 你的博客网站标题
+SEOTitle: JainWong Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: JainWong     # 你的github账号
+weibo_username: JainWong      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -105,7 +105,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "JainWong"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -124,7 +124,7 @@ rake post title="Hello 2015" subtitle="Hello World, Hello Blog"
 #### SideBar
 
 看右边:
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](https://jainwong.github.io/img/blog-sidebar.jpg)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 ```
